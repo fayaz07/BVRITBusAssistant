@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">BVRIT Bus Assistant</string>
+
+    <string-array name="routes">
+        <item>	 Route - 1J	</item>
+        <item>	 Route -2J	</item>
+        <item>	Route - 3J	</item>
+        <item>	Route - 5J	</item>
+        <item>	Route - 6J	</item>
+        <item>	Route - 7J	</item>
+        <item>	Route - 8J	</item>
+        <item>	Route -9J	</item>
+        <item>	Route - 10J	</item>
+        <item>	Route -11J	</item>
+        <item>	 Route - 1N	</item>
+        <item>	 Route - 2N	</item>
+        <item>	 Route - 3N	</item>
+        <item>	 Route - 4N	</item>
+        <item>	 Route - 1M	</item>
+        <item>	 Route - 2M	</item>
+        <item>	 Route -3M 	</item>
+        <item>	 Route - 4M	</item>
+        <item>	 Route - 5M	</item>
+        <item>	 Route - 6M	</item>
+        <item>	Route - 7M	</item>
+        <item>	Route - BHEL-1	</item>
+        <item>	 Route - BHEL-2	</item>
+        <item>	 Route - BHEL-3	</item>
+        <item>	 Route - BHEL-4	</item>
+        <item>	 Route - BHEL-5	</item>
+        <item>	 Route - 1B	</item>
+        <item>	 Route - 2B	</item>
+        <item>	 Route - 3B	</item>
+        <item>	 Route - 4B	</item>
+        <item>	 Route - 5B	</item>
+        <item>	 Route - 6B	</item>
+        <item>	 Route - 7B	</item>
+        <item>	 Route - 8B	</item>
+        <item>	 Route -9B 	</item>
+        <item>	 Route - 10B	</item>
+        <item>	 Route - 11B	</item>
+        <item>	 Route - 12B	</item>
+        <item>	Route - MDCL	</item>
+        <item>	 Route - 1S	</item>
+        <item>	 Route - 2S	</item>
+        <item>	 Route - 3S	</item>
+        <item>	 Route - 4S	</item>
+        <item>	 Route - 5S	</item>
+        <item>	 Route - 6S	</item>
+        <item>	 Route - 1L	</item>
+        <item>	 Route - 2L	</item>
+        <item>	 Route - 3L	</item>
+        <item>	 Route - 4L	</item>
+        <item>	 Route - 5L	</item>
+        <item>	 Route - SRD - 1	</item>
+        <item>	 Route - SRD - 2	</item>
+        <item>	 Route - SRD - 3	</item>
+        <item>	 Route - ODF - 1	</item>
+        <item>	 Route - ODF - 2	</item>
+        <item>	 Route - SSP - 1	</item>
+        <item>	 Route - SSP - 2	</item>
+        <item>	 Route - SSP - 3	</item>
+        <item>	 Route - BDL - 1	</item>
+        <item>	 Route - BDL - 2	</item>
+        <item>	 Route - ISP	</item>
+        <item>	 Route - MEDAK</item>
+        <item>	 Route - GJL	</item>
+    </string-array>
+
+    <string-array name="phoneCode">
+        <item>+91</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>	9866826746	</item> <!-- 9866826746 -->
+        <item>	9603368804	</item>
+        <item>	8096108677	</item>
+        <item>	9573088291	</item>
+        <item>	9177409014	</item>
+        <item>	9912841762	</item>
+        <item>	9963898068	</item>
+        <item>	9441142293	</item>
+        <item>	9502593535	</item>
+        <item>	9948807984	</item>
+        <item>	9000543997	</item>
+        <item>	995937936	</item>
+        <item>	9701241933	</item>
+        <item>	9505833025	</item>
+        <item>	9959520815	</item>
+        <item>	9949886543	</item>
+        <item>	8106749806	</item>
+        <item>	9032522996	</item>
+        <item>	9573378199	</item>
+        <item>	9177990997	</item>
+        <item>	9908210091	</item>
+        <item>	9618562395	</item>
+        <item>	9951696150	</item>
+        <item>	7702419394	</item>
+        <item>	9705300107	</item>
+        <item>	9640980328	</item>
+        <item>	9703071109	</item>
+        <item>	9493978848	</item>
+        <item>	9493978848	</item>
+        <item>	7799140443	</item>
+        <item>	8121436071	</item>
+        <item>	8897185878	</item>
+        <item>	9581415499	</item>
+        <item>	8790593873	</item>
+        <item>	9963998479	</item>
+        <item>	8978414678	</item>
+        <item>	8008850262	</item>
+        <item>	9494916432	</item>
+        <item>	9985936419	</item>
+        <item>	9052786757	</item>
+        <item>	9912494650	</item>
+        <item>	9030912772	</item>
+        <item>	9959882029	</item>
+        <item>	9700625925	</item>
+        <item>	9573197741	</item>
+        <item>	9908354769	</item>
+        <item>	9951743179	</item>
+        <item>	9912837459	</item>
+        <item>	9985095845	</item>
+        <item>	9010088616	</item>
+        <item>	9492301449	</item>
+        <item>	9703542049	</item>
+        <item>	9494059469	</item>
+        <item>	9849093319	</item>
+        <item>	9177337498	</item>
+        <item>	9963323601	</item>
+        <item>	9849859714	</item>
+        <item>	9000735579	</item>
+        <item>	9866592042	</item>
+        <item>	9133878185	</item>
+    </string-array>
+
+    <string-array name="codes">
+        <item>	BVR1J	</item>
+        <item>	BVR2J	</item>
+        <item>	BVR3J	</item>
+        <item>	BVR4J	</item>
+        <item>	BVR5J	</item>
+        <item>	BVR6J	</item>
+        <item>	BVR7J	</item>
+        <item>	BVR8J	</item>
+        <item>	BVR9J	</item>
+        <item>	BVR10J	</item>
+        <item>	BVR11J	</item>
+        <item>	BVR1N	</item>
+        <item>	BVR2N	</item>
+        <item>	BVR3N	</item>
+        <item>	BVR4N	</item>
+        <item>	BVR1M	</item>
+        <item>	BVR2M	</item>
+        <item>	BVR3M	</item>
+        <item>	BVR4M	</item>
+        <item>	BVR5M	</item>
+        <item>	BVR6M	</item>
+        <item>	BVR7M	</item>
+        <item>	BVRBH1	</item>
+        <item>	BVRBH2	</item>
+        <item>	BVRBH3	</item>
+        <item>	BVRBH4	</item>
+        <item>	BVRBH5	</item>
+        <item>	BVR1B	</item>
+        <item>	BVR2B	</item>
+        <item>	BVR3B	</item>
+        <item>	BVR4B	</item>
+        <item>	BVR5B	</item>
+        <item>	BVR6B	</item>
+        <item>	BVR7B	</item>
+        <item>	BVR8B	</item>
+        <item>	BVR9B	</item>
+        <item>	BVR10B	</item>
+        <item>	BVR11B	</item>
+        <item>	BVR12B	</item>
+        <item>	BVRMDCL	</item>
+        <item>	BVR1S	</item>
+        <item>	BVR2S	</item>
+        <item>	BVR3S	</item>
+        <item>	BVR4S	</item>
+        <item>	BVR5S	</item>
+        <item>	BVR6S	</item>
+        <item>	BVR1L	</item>
+        <item>	BVR2L	</item>
+        <item>	BVR3L	</item>
+        <item>	BVR4L	</item>
+        <item>	BVR5L	</item>
+        <item>	BVRSRD1	</item>
+        <item>	BVRSRD2	</item>
+        <item>	BVRSRD3	</item>
+        <item>	BVRODF1	</item>
+        <item>	BVRODF2	</item>
+        <item>	BVRSSP1	</item>
+        <item>	BVRSSP2	</item>
+        <item>	BVRSSP3	</item>
+        <item>	BVRBDL1	</item>
+        <item>	BVRBDL2	</item>
+        <item>	BVRISP	</item>
+        <item>	BVRMDK	</item>
+        <item>	BVRGJL	</item>
+    </string-array>
+</resources>
