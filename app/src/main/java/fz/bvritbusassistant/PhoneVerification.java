@@ -325,18 +325,26 @@ public class PhoneVerification extends AppCompatActivity {
     }
 
     private void onVerificationFinished(){
+
         ClientDataModel cm = new ClientDataModel();
         cm.setIndex(String.valueOf(indexOfNumber));
         cm.setPhone(phones[indexOfNumber]);
         cm.setRouteCode(routeCodes[indexOfNumber]);
-        databaseReference.child(routeCodes[indexOfNumber]).setValue(cm);
 
-        Intent intent = new Intent(PhoneVerification.this, StartService.class);
-        intent.putExtra("i",indexOfNumber);
-        startActivity(intent);
-        progressDialog.dismiss();
-        finish();
+        try {
+            String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
+            cm.setUid(uid);
+        }catch (NullPointerException e){
 
+        }finally {
+            databaseReference.child(routeCodes[indexOfNumber]).setValue(cm);
+
+            Intent intent = new Intent(PhoneVerification.this, StartService.class);
+            intent.putExtra("i",indexOfNumber);
+            startActivity(intent);
+            progressDialog.dismiss();
+            finish();
+        }
     }
 
 

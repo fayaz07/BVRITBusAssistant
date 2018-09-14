@@ -71,10 +71,14 @@ public class StartService extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for (DataSnapshot d : dataSnapshot.getChildren() ){
                     ClientDataModel cm = d.getValue(ClientDataModel.class);
-                    if (FirebaseAuth.getInstance().getUid().equals(cm.getUid())){
-                        index = Integer.parseInt(cm.getIndex());
-                        progressDialog.dismiss();
-                        break;
+                    try {
+                        if (FirebaseAuth.getInstance().getUid().equals(cm.getUid())){
+                            index = Integer.parseInt(cm.getIndex());
+                            progressDialog.dismiss();
+                            break;
+                        }
+                    }catch (NullPointerException e){
+
                     }
                 }
                 progressDialog.dismiss();
@@ -90,7 +94,8 @@ public class StartService extends AppCompatActivity {
         phones = getResources().getStringArray(R.array.numbers);
 
         databaseReference = FirebaseDatabase.getInstance().getReference().child("Bus Tracker").child(routeCode[index]);
-        start = findViewById(R.id.serviceStartSwitch);
+
+         start = findViewById(R.id.serviceStartSwitch);
 
         lastUpdateTextView = findViewById(R.id.lastupdate);
         locationTextView = findViewById(R.id.locationPresent);
